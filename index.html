@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resolution</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <select id="options">
+            <option value="0">1024 x 600</option>
+            <option value="1">1024 x 768</option>
+            <option value="2">1280 x 768</option>
+            <option value="3">1280 x 950</option>
+            <option value="4">1366 x 768</option>
+          </select>
+        </li>
+        <li>
+          <input id="campoL" type="number" placeholder="Largura">
+          <input id="campoH" type="number" placeholder="Altura">
+          <button id="btnSize">Ok</button>
+        </li>
+        <li></li>
+      </ul>
+    </nav>
+  </header>
+  <div>
+    <div id="campoDL">
+      <input id="campoURL" type="text" placeholder="Digite o link">
+      <button id="btnURL">Ok</button>
+    </div>
+  </div>
+  <iframe id="janela" src="" frameborder="0"></iframe>
+  <script src="main.js"></script>
+</body>
+
+</html>

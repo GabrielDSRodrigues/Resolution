@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #0F1625;
+}
+
+header {
+  background:
+    /*#17243E*/
+    #131D32;
+  padding: 0.3rem;
+  overflow: hidden;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  float: left;
+  display: block;
+  margin-right: 1rem;
+}
+
+header nav ul li button {
+  outline: none;
+  background: #1B325E;
+  color: #FFF;
+  outline: none;
+  border: none;
+  padding: 0.3rem;
+  width: 30px;
+  border-radius: 2px;
+}
+
+select {
+  outline: none;
+  background: #15274B;
+  color: #FFF;
+  padding: 0.3rem;
+  border: none;
+  box-shadow: 0 0 1px #23427F;
+  border-radius: 4px;
+}
+
+input[type="number"] {
+  background: #182337;
+  color: #FFF;
+  outline: none;
+  padding: 0.3rem;
+  width: 80px;
+  border: none;
+}
+
+#campoDL {
+  background: #23427F;
+  height: 30px;
+  width: 70%;
+  max-width: 600px;
+}
+
+#campoDL input[type="text"] {
+  background: none;
+  outline: none;
+  color: #FFF;
+  border: none;
+  height: 100%;
+  width: calc(100% - (30px + 1rem));
+  display: block;
+  float: left;
+  padding-left: 1rem;
+}
+
+#campoDL button {
+  background: #122B5B;
+  color: #FFF;
+  height: 30px;
+  width: 30px;
+  border: none;
+  outline: none;
+  display: block;
+  float: left;
+}
