@@ -18,13 +18,14 @@ btnSize.addEventListener("click", () => {
 })
 
 let optionsVal = [
-  [1024,600], [1024,768], [1280,768], [1280,950], [1366,768]//Notebooks
+  [1024, 600], [1024, 768], [1280, 768], [1280, 950], [1366, 768] //Notebooks
 ];
 let options = id("options");
 options.addEventListener("change", () => {
-  console.log([options.value])
+  camposLH[0].value = optionsVal[parseInt(options.value)][0];
+  camposLH[1].value = optionsVal[parseInt(options.value)][1];
   if (url.value != "") {
-    id("janela").style.width = optionsVal[parseInt(options.value)][0]+"px";
-    id("janela").style.heigth = optionsVal[parseInt(options.value)][1]+"px";
+    id("janela").style.width = optionsVal[parseInt(options.value)][0] + "px";
+    id("janela").style.heigth = optionsVal[parseInt(options.value)][1] + "px";
   }
 });

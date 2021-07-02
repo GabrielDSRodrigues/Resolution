@@ -14,9 +14,7 @@ body {
 }
 
 header {
-  background:
-    /*#17243E*/
-    #131D32;
+  background: #131D32;
   padding: 0.3rem;
   overflow: hidden;
 }
@@ -31,7 +29,7 @@ header nav ul li {
   margin-right: 1rem;
 }
 
-header nav ul li button {
+#btnSize {
   outline: none;
   background: #1B325E;
   color: #FFF;
@@ -40,6 +38,12 @@ header nav ul li button {
   padding: 0.3rem;
   width: 30px;
   border-radius: 2px;
+  transition: 0.5s;
+}
+
+#btnSize:hover {
+  background: #327AD2;
+  transition: 0.5s;
 }
 
 select {
@@ -89,4 +93,10 @@ input[type="number"] {
   outline: none;
   display: block;
   float: left;
+  transition: 0.5s;
+}
+
+#campoDL button:hover {
+  background: #327AD2;
+  transition: 0.5s;
 }
