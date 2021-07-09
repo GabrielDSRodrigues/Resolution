@@ -38,7 +38,6 @@ header nav ul li {
   padding: 0.3rem;
   width: 30px;
   border-radius: 2px;
-  transition: 0.5s;
 }
 
 #btnSize:hover {
@@ -93,7 +92,6 @@ input[type="number"] {
   outline: none;
   display: block;
   float: left;
-  transition: 0.5s;
 }
 
 #campoDL button:hover {
