@@ -9,6 +9,10 @@ btnURL.addEventListener("click", () => {
   id("janela").src = url.value;
 });
 
+url.addEventListener("change", () => {
+  id("janela").src = url.value;
+})
+
 let camposLH = [id("campoL"), id("campoH")];
 let btnSize = id("btnSize");
 

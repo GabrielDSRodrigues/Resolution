@@ -8,8 +8,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Resolution</title>
   <meta name="description" content="Veja seu site em diferentes resoluções de tela!">
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="icon.jpg">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="icon" href="imgs/icon.jpg">
 </head>
 
 <body>
@@ -17,11 +18,13 @@
     <nav>
       <ul>
         <li>
-          <h3>Monitores e Televisores</h3>
+          <i class="fa fa-tv"></i>
+          <i class="fa fa-desktop"></i>
+          <i class="fa fa-laptop"></i>
           <select id="desktop"></select>
         </li>
         <li>
-          <h3>Dispositivos Móveis</h3>
+          <i class="fa fa-mobile-alt"></i>
           <select id="mobile"></select>
         </li>
         <li>
@@ -29,14 +32,13 @@
           <input id="campoH" type="number" placeholder="Altura">
           <button id="btnSize">Ok</button>
         </li>
-        <li></li>
       </ul>
     </nav>
   </header>
   <div>
     <div id="campoDL">
-      <input id="campoURL" type="text" placeholder="Digite o link">
-      <button id="btnURL">Ok</button>
+      <input id="campoURL" type="text" placeholder="Digite o link: https://...">
+      <button id="btnURL"><i class="fa fa-search"></i></button>
     </div>
   </div>
   <iframe id="janela" src="" frameborder="0"></iframe>

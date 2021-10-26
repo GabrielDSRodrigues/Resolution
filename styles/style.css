@@ -10,13 +10,14 @@ body {
 }
 
 body {
-  background: #0F1625;
+  background: #F1F1F1;
 }
 
 header {
-  background: #131D32;
+  background: #FFF;
   padding: 0.3rem;
   overflow: hidden;
+  border-bottom: 1px solid #F7F7F7;
 }
 
 header nav ul {
@@ -29,8 +30,8 @@ header nav ul li {
   margin-right: 1rem;
 }
 
-header ul li h3 {
-  color: #FFF;
+header ul li i {
+  color: #3F86FF;
   margin-right: 0.5rem;
   display: inline-block;
 }
@@ -53,17 +54,16 @@ header ul li h3 {
 
 select {
   outline: none;
-  background: #15274B;
-  color: #FFF;
+  background: #CBDEFE;
+  color: #4489FF;
   padding: 0.3rem;
   border: none;
-  box-shadow: 0 0 1px #23427F;
   border-radius: 4px;
 }
 
 input[type="number"] {
-  background: #182337;
-  color: #FFF;
+  background: #F7F7F7;
+  color: #4489FF;
   outline: none;
   padding: 0.3rem;
   width: 80px;
@@ -80,7 +80,7 @@ input::-webkit-inner-spin-button {
 }
 
 #campoDL {
-  background: #23427F;
+  background: #FBFBFB;
   height: 30px;
   width: 70%;
   max-width: 600px;
@@ -89,7 +89,7 @@ input::-webkit-inner-spin-button {
 #campoDL input[type="text"] {
   background: none;
   outline: none;
-  color: #FFF;
+  color: #005FFF;
   border: none;
   height: 100%;
   width: calc(100% - (30px + 1rem));
